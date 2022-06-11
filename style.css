@@ -99,19 +99,20 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
+    width: 100%;
+    
+
 }
 
-
 .cards {
-    display: flex;
+    /* display: flex; */
     justify-content: space-evenly;
     gap: 15px;
     align-items: center;
     flex-wrap: wrap;
     padding: 15px;
-    width: 80%;
     text-align: center;
+    width: 100%;
 }
 
 
@@ -162,3 +163,7 @@ body {
     font-size: 15px;
 
 }
+
+
+
+
