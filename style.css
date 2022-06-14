@@ -100,25 +100,28 @@ body {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    
+
 
 }
 
-.cards {
-    /* display: flex; */
+/* 
+ .cards {
+    
     justify-content: space-evenly;
     gap: 15px;
     align-items: center;
     flex-wrap: wrap;
     padding: 15px;
     text-align: center;
-    width: 100%;
-}
+    width: 100%; 
+} */
 
 
 .card {
     width: 400px;
     height: 500px;
+    text-align: center;
+    margin: 15px;
     border-radius: 13px;
     background: rgba(42, 32, 63, 1);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -163,7 +166,3 @@ body {
     font-size: 15px;
 
 }
-
-
-
-

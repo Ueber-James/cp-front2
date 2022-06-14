@@ -17,7 +17,7 @@ formulario.addEventListener('submit', function (event) {
 
     adicionarCard(dados);
     event.preventDefault();
-    this.reset();
+    
 
     
 });
@@ -33,17 +33,17 @@ function adicionarCard(dados) {
     animesCriadas.forEach((chama) => {
         const card = document.createElement('div')
         card.innerHTML = ` 
-        <div class="card">
+        
         <img src="${chama.url}" />
     <h3 class="textcards">${chama.nomedoanime}</h3>
     <h4 class="texth4">tempotada(s)</h4>
     <p class="temp">${chama.temporadas}</p>
     <p class="text">${chama.descricao}</p>
-    </div> `
-        card.setAttribute("class", "cards");
+     `
+        card.setAttribute("class", "card");
         cardc.appendChild(card);
 
-        // div.addEventListener('click', ()=>{ div.remove()})
+        card.addEventListener('click', ()=>{ card.remove()})
 
     });
 }
